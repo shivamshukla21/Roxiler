@@ -1,0 +1,257 @@
+{
+	"id": "d7877a19-f055-4f8d-ac0d-0c21c49dc4ee",
+	"name": "Roxiler",
+	"timestamp": "2024-06-16T19:42:56.765Z",
+	"collection_id": "35121119-cb2c5344-db50-4639-8a5f-d6323c9d6b22",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-16T19:42:52.959Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0abbcfec-c38c-4bc1-b3ce-cee039a59a5a",
+			"name": "Welcome",
+			"url": "https://roxiler-kjsy.onrender.com",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5b98bead-bae4-4f42-b253-166ffed98efc",
+			"name": "Initialize",
+			"url": "https://roxiler-kjsy.onrender.com/initialize",
+			"time": 1232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0cb22a48-ef8a-40b4-af71-f3f9c8c71fb5",
+			"name": "Transactions",
+			"url": "https://roxiler-kjsy.onrender.com/transactions",
+			"time": 338,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				338
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "3cfd0fc2-c994-432d-a3c3-d4a27106d26c",
+			"name": "statistics",
+			"url": "https://roxiler-kjsy.onrender.com/statistics?month=March",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3347e29d-36e5-491e-bd5b-4bb72dadf252",
+			"name": "BarChart",
+			"url": "https://roxiler-kjsy.onrender.com/bar-chart?month=February",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4fadacb9-2d78-47f2-9a81-49bc82a1a162",
+			"name": "PieChart",
+			"url": "https://roxiler-kjsy.onrender.com/pie-chart?month=May",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "00444a85-35da-47c0-b43f-65eefa7e1ebb",
+			"name": "Combined",
+			"url": "https://roxiler-kjsy.onrender.com/combined?month=March",
+			"time": 368,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				368
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2808,
+	"collection": {
+		"requests": [
+			{
+				"id": "0abbcfec-c38c-4bc1-b3ce-cee039a59a5a",
+				"method": "GET"
+			},
+			{
+				"id": "5b98bead-bae4-4f42-b253-166ffed98efc",
+				"method": "GET"
+			},
+			{
+				"id": "0cb22a48-ef8a-40b4-af71-f3f9c8c71fb5",
+				"method": "GET"
+			},
+			{
+				"id": "3cfd0fc2-c994-432d-a3c3-d4a27106d26c",
+				"method": "GET"
+			},
+			{
+				"id": "3347e29d-36e5-491e-bd5b-4bb72dadf252",
+				"method": "GET"
+			},
+			{
+				"id": "4fadacb9-2d78-47f2-9a81-49bc82a1a162",
+				"method": "GET"
+			},
+			{
+				"id": "00444a85-35da-47c0-b43f-65eefa7e1ebb",
+				"method": "GET"
+			}
+		]
+	}
+}
